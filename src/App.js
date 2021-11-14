@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './components/About';
+import Header from './components/Header';
+import Presentation from './components/Presentation';
+import Projects from './components/Projects';
+import ScrollAnimation from 'react-animate-on-scroll';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
+import "animate.css";
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ScrollAnimation duration={2} animateIn="animate__fadeIn" animateOnce>
+        <Header />
+        <div className="app d-flex flex-column align-items-center p-3">
+          <Presentation />
+          <About />
+          <Projects />
+          <Skills />
+        </div>
+        <Footer />
+      </ScrollAnimation>
+    </>
   );
 }
 

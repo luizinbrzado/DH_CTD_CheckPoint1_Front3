@@ -1,0 +1,19 @@
+@import "../../root.scss";
+
+#skills {
+    width: 100%;
+    align-items: center;
+    .title {
+        width: 100%;
+    }
+    #content-skills {
+        h1 {
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

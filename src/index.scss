@@ -1,0 +1,42 @@
+@import "./root.scss";
+
+body {
+  background-color: $bg-primary;
+  color: $text-primary;
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 600px) {
+  #presentation {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  #presentation > div:first-child {
+    max-width: 350px !important;
+  }
+
+  #presentation .presentation-buttons {
+    gap: 0.5rem !important;
+    align-items: flex-start !important;
+  }
+
+  #presentation .presentation-img img {
+    width: 25rem !important;
+  }
+}
+
+@media (min-width: 900px) {
+  #presentation {
+    max-width: 1000px !important;
+  }
+
+  #presentation .presentation-buttons {
+    flex-direction: row !important;
+  }
+}

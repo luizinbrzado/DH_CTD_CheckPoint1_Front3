@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "img": {
+        "src": "./img/Projeto_To_Do.png",
+        "alt": "Print do projeto: To Do List"
+      },
+      "link": {
+        "github": "https://github.com/luizinbrzado/DH_Checkpoint2_Frontend2",
+        "page": "https://luizinbrzado.github.io/DH_Checkpoint2_Frontend2/"
+      },
+      "technologies": "Tecnologias: HTML, CSS, JS e API RESTful.",
+      "title": "To Do List"
+    },
+    {
+      "img": {
+        "src": "./img/Projeto_Geek_Zone.png",
+        "alt": "Print do projeto: Geek Zone"
+      },
+      "link": {
+        "github": "https://github.com/luizinbrzado/projetofinalFront1",
+        "page": "https://vanessagomesdeoliveira.github.io/projetofinalFront1/"
+      },
+      "technologies": "Tecnologias: HTML, CSS, JS...",
+      "title": "Geek Zone"
+    }
+  ]
+}

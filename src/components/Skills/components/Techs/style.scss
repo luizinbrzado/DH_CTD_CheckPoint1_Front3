@@ -1,0 +1,16 @@
+@import '../../../../root.scss';
+
+.techs {
+    width: 5rem;
+    height: 5rem;
+    background-color: $bg-second;
+
+    i {
+        font-size: 3rem;
+        color: $contrast-color;
+    }
+
+    &::marker {
+        color: transparent;
+    }
+}

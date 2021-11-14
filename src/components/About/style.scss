@@ -1,0 +1,54 @@
+@import "../../root.scss";
+
+#about-me {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 46rem;
+
+    .about-me {
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            color: $text-second;
+
+            span {
+                color: $contrast-color;
+            }
+        }
+    }
+
+    #contacts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        text-align: center;
+        justify-content: center;
+
+        div {
+            i {
+                background-color: $bg-second;
+                padding: 0.6rem;
+                border-radius: 50%;
+                color: $contrast-color;
+                font-size: 1.5rem;
+                margin-bottom: 0.6rem;
+            }
+
+            p,
+            a {
+                display: block;
+                color: $text-second;
+                padding: 0.6rem;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgba(130, 130, 130, 0.8);
+                }
+            }
+        }
+    }
+}
