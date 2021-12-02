@@ -39,23 +39,14 @@ function Header() {
                     <a className="navbar-brand" href="#">LuizIn<span>B</span><span>R</span>zado</a>
                     <ul className="nav nav-pills nav-fill">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about-me">Sobre mim</a>
+                            <a className="nav-link link link--metis" href="#about-me">Sobre mim</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">Projetos</a>
+                            <a className="nav-link link link--metis" href="#projects">Projetos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about-me">Contate-me</a>
+                            <a className="nav-link link link--metis" href="#about-me">Contate-me</a>
                         </li>
-                        {/* <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#about-me">Sobre mim</a></li>
-                                <li><a className="dropdown-item" href="#projects">Projetos</a></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#scrollspyHeading5">Contate-me</a></li>
-                            </ul>
-                        </li> */}
                     </ul>
                 </nav>
             </header>
