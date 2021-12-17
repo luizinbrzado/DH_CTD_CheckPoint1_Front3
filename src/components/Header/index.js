@@ -24,6 +24,7 @@ function Header() {
         return () => {
             window.removeEventListener('scroll', controlNavbar)
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (

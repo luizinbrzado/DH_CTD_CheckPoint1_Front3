@@ -17,7 +17,7 @@ export default class Project extends Component {
     render() {
         return (
             <>
-                <ScrollAnimation animateIn="animate__fadeInUp">
+                <ScrollAnimation animateIn="animate__fadeInUp" animateOnce>
                     <div className="project">
                         <div className="projects-img">
                             <img className="img-fluid" src={this.props.img} alt={this.props.alt} />

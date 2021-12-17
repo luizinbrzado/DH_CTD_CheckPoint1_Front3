@@ -1,12 +1,6 @@
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css";
 import './style.scss';
-import ReactAnime from 'react-animejs';
-
-const {
-    Anime
-} = ReactAnime;
-
 export default function Presentation() {
 
     return (
