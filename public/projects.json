@@ -2,6 +2,18 @@
   "data": [
     {
       "img": {
+        "src": "./img/Projeto_Poison_Games.png",
+        "alt": "Print do projeto: Poison Games"
+      },
+      "link": {
+        "github": "https://github.com/noubarijou/PICTDFE",
+        "page": "https://poisongames.vercel.app/"
+      },
+      "technologies": "Tecnologias: ReactJS, Bootstrap, HTML, CSS, JS e API RESTful.",
+      "title": "Poison Games"
+    },
+    {
+      "img": {
         "src": "./img/Projeto_To_Do.png",
         "alt": "Print do projeto: To Do List"
       },
