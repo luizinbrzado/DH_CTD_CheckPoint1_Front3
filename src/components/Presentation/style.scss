@@ -48,8 +48,7 @@
             gap: 1rem;
             
             &:first-child {
-                pointer-events: none;
-                background-color: rgba(0, 223, 94, 0.4);
+                background-color: $contrast-color;
                 &:hover,
                 &:active {
                     color: rgba(23, 23, 23, 0.8);
